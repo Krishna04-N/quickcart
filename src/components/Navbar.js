@@ -11,7 +11,7 @@ function Navbar({ onSearch }) {
   return (
     <nav className="navbar navbar-expand-lg navbar-dark bg-dark shadow">
       <div className="container-fluid">
-        <a className="navbar-brand fw-bold fs-4" href="#">🛒 QuickCart</a>
+        <a className="navbar-brand fw-bold fs-4" href="/">🛒 QuickCart</a>
 
         <form className="d-flex ms-auto w-50" onSubmit={handleSubmit}>
           <input
